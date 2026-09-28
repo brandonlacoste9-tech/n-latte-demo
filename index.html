@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>N Latté — Café de spécialité à Longueuil | Vieux-Longueuil</title>
+<meta name="description" content="N Latté — café de spécialité dans le Vieux-Longueuil. Cafés artisanaux, pâtisseries maison, options véganes et sans gluten. 247 Rue Saint-Charles O, Longueuil QC. Appelez le 450-876-1096.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">NL</span>
+      <span class="brand-text">N <strong>Latté</strong></span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#services" data-i18n="nav.services">Menu</a>
+      <a href="#why" data-i18n="nav.why">Pourquoi nous</a>
+      <a href="#gallery" data-i18n="nav.gallery">Galerie</a>
+      <a href="#reviews" data-i18n="nav.reviews">Avis</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button type="button" class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
+      <a href="tel:+14508761096" class="btn btn-call">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span data-i18n="nav.call">450 876-1096</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg"><img src="images/hero.jpg" alt="N Latté — 247 Rue Saint-Charles O, Longueuil"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-kicker" data-i18n="hero.kicker">Vieux-Longueuil, Québec · Café de spécialité depuis 2017</p>
+    <h1 data-i18n="hero.title">L'art du café,<br>au cœur du Vieux-Longueuil.</h1>
+    <p class="hero-sub" data-i18n="hero.sub">Cafés artisanaux, pâtisseries maison et options véganes — dans une ambiance chaleureuse, sur la rue Saint-Charles. Note de 4,9/5 sur Google (62 avis).</p>
+    <div class="hero-ctas">
+      <a href="tel:+14508761096" class="btn btn-primary" data-i18n="hero.cta1">Appelez-nous</a>
+      <a href="#services" class="btn btn-ghost" data-i18n="hero.cta2">Voir le menu</a>
+    </div>
+  </div>
+</section>
+
+<section class="walkin">
+  <div class="wrap walkin-inner">
+    <div class="walkin-item">
+      <span class="walkin-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+      <div><strong data-i18n="walkin.w1t">Lun – Ven · dès 7 h – 16 h 30</strong><span data-i18n="walkin.w1d">Sam – Dim · 8 h 30 – 16 h 30</span></div>
+    </div>
+    <div class="walkin-item">
+      <span class="walkin-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><path d="M7 2v2M11 2v2M15 2v2"/></svg></span>
+      <div><strong data-i18n="walkin.w2t">Cafés · Pâtisseries · Végane</strong><span data-i18n="walkin.w2d">Tout est préparé maison</span></div>
+    </div>
+    <div class="walkin-item">
+      <span class="walkin-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+      <div><strong data-i18n="walkin.w3t">Vieux-Longueuil, QC</strong><span data-i18n="walkin.w3d">247, rue Saint-Charles Ouest</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stats-inner">
+    <div class="stat"><span class="stat-num">4,9/5</span><span class="stat-label" data-i18n="stats.rating">note moyenne sur Google (62 avis)</span></div>
+    <div class="stat"><span class="stat-num" data-i18n="stats.sinceNum">2017</span><span class="stat-label" data-i18n="stats.since">au service du quartier</span></div>
+    <div class="stat"><span class="stat-num" data-i18n="stats.homeNum">Maison</span><span class="stat-label" data-i18n="stats.home">pâtisseries et recettes préparées sur place</span></div>
+    <div class="stat"><span class="stat-num" data-i18n="stats.areaNum">Longueuil</span><span class="stat-label" data-i18n="stats.area">rue Saint-Charles, Vieux-Longueuil</span></div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <p class="kicker" data-i18n="services.kicker">Notre menu</p>
+    <h2 data-i18n="services.title">Simple, créatif et fait maison</h2>
+    <div class="service-grid">
+      <article class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><path d="M7 2v2M11 2v2M15 2v2"/></svg></div>
+        <h3 data-i18n="services.s1t">Cafés de spécialité</h3>
+        <p data-i18n="services.s1d">Lattes, cappuccinos et mochas maison, préparés avec des grains de haute qualité — au lait d'avoine ou de soya.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3h14l-1.5 18h-11L5 3z"/><path d="M5 8h14"/></svg></div>
+        <h3 data-i18n="services.s2t">Boissons glacées</h3>
+        <p data-i18n="services.s2d">Matcha glacé, café-limo et autres créations glacées — les préférées des habitués.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10h16v2a8 8 0 0 1-8 8 8 8 0 0 1-8-8v-2z"/><path d="M12 12v8M8 6c0-2 2-2 2-4M14 6c0-2 2-2 2-4"/></svg></div>
+        <h3 data-i18n="services.s3t">Pâtisseries fraîches</h3>
+        <p data-i18n="services.s3d">Muffins, biscuits, brownies et viennoiseries — une sélection alléchante préparée maison.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C7 7 4 11 4 15a8 8 0 0 0 16 0c0-4-3-8-8-13z"/></svg></div>
+        <h3 data-i18n="services.s4t">Options véganes et sans gluten</h3>
+        <p data-i18n="services.s4d">Une offre majoritairement végane et sans gluten, bien identifiée — facile de s'y retrouver.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10M9 20v-6h6v6"/></svg></div>
+        <h3 data-i18n="services.s5t">Prêt-à-manger</h3>
+        <p data-i18n="services.s5d">Sandwiches, burritos déjeuner et salades maison — sur place ou à emporter.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8h12l1 13H5L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></div>
+        <h3 data-i18n="services.s6t">Café en grains</h3>
+        <p data-i18n="services.s6d">Des grains de café de très bonne qualité à rapporter à la maison.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="why" id="why">
+  <div class="wrap why-grid">
+    <div class="why-img"><img src="images/why.jpg" alt="Latte art versé avec soin"></div>
+    <div class="why-copy">
+      <p class="kicker" data-i18n="why.kicker">Pourquoi nous choisir</p>
+      <h2 data-i18n="why.title">Une affaire de famille, un café de quartier</h2>
+      <p data-i18n="why.intro">Fondé en 2017 dans le Vieux-Longueuil, le N Latté est aujourd'hui tenu par un père et sa fille, dans la continuité de ce qui a toujours fait sa force : la chaleur humaine et l'amour du bon café.</p>
+      <ul class="why-list">
+        <li><strong data-i18n="why.l1t">Café de spécialité</strong><span data-i18n="why.l1d">Des grains de haute qualité, préparés par des gens qui aiment vraiment le café.</span></li>
+        <li><strong data-i18n="why.l2t">Tout est fait maison</strong><span data-i18n="why.l2d">Pâtisseries, sandwiches et recettes créatives, préparés sur place chaque jour.</span></li>
+        <li><strong data-i18n="why.l3t">Pensé pour tous</strong><span data-i18n="why.l3d">Options véganes et sans gluten clairement identifiées, pour que chacun y trouve son compte.</span></li>
+        <li><strong data-i18n="why.l4t">Un lieu de rencontre</strong><span data-i18n="why.l4d">Une quarantaine de places où se côtoient étudiants, familles et travailleurs du quartier.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <p class="kicker" data-i18n="gallery.kicker">En images</p>
+    <h2 data-i18n="gallery.title">L'ambiance du N Latté</h2>
+    <div class="gallery-grid">
+      <figure>
+        <img src="images/gallery-1.jpg" alt="Vitrine de pâtisseries maison">
+        <figcaption data-i18n="gallery.c1">Pâtisseries fraîches, préparées maison</figcaption>
+      </figure>
+      <figure>
+        <img src="images/gallery-2.jpg" alt="Boissons glacées au soleil">
+        <figcaption data-i18n="gallery.c2">Matcha glacé et créations glacées</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <p class="kicker kicker-light" data-i18n="reviews.kicker">Ils en parlent</p>
+    <h2 data-i18n="reviews.title">Adoré du quartier</h2>
+    <div class="review-cards">
+      <a class="review-cta-card" href="https://www.google.com/maps/search/N+Latt%C3%A9+Longueuil" target="_blank" rel="noopener">
+        <span class="review-score">4,9<span class="review-score-max">/5</span></span>
+        <span class="stars">★★★★★</span>
+        <span data-i18n="reviews.more">62 avis sur Google — voyez ce que les clients disent de nous</span>
+        <span class="review-cta-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <p class="kicker" data-i18n="faq.kicker">Bon à savoir</p>
+    <h2 data-i18n="faq.title">Questions fréquentes</h2>
+    <div class="faq-list">
+      <details open>
+        <summary data-i18n="faq.q1">Quelles sont vos heures d'ouverture?</summary>
+        <p data-i18n="faq.a1">Lundi 8 h à 16 h 30, mardi 7 h à 16 h 30, mercredi à vendredi 8 h à 16 h 30, samedi et dimanche 8 h 30 à 16 h 30.</p>
+      </details>
+      <details>
+        <summary data-i18n="faq.q2">Avez-vous des options véganes et sans gluten?</summary>
+        <p data-i18n="faq.a2">Oui — notre offre est majoritairement végane et sans gluten, et tout est clairement identifié.</p>
+      </details>
+      <details>
+        <summary data-i18n="faq.q3">Puis-je emporter ma commande?</summary>
+        <p data-i18n="faq.a3">Bien sûr — tout le menu est disponible sur place ou à emporter. Appelez-nous au (450) 876-1096.</p>
+      </details>
+      <details>
+        <summary data-i18n="faq.q4">Où êtes-vous situés?</summary>
+        <p data-i18n="faq.a4">Au 247, rue Saint-Charles Ouest, dans le Vieux-Longueuil (QC J4H 1E1).</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <p class="kicker" data-i18n="contact.kicker">Venez nous voir</p>
+    <h2 data-i18n="contact.title">Passez nous dire bonjour</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-row">
+          <span class="contact-label" data-i18n="contact.addr">Adresse</span>
+          <span>247, rue Saint-Charles Ouest<br>Longueuil, QC J4H 1E1</span>
+        </div>
+        <div class="contact-row">
+          <span class="contact-label" data-i18n="contact.phone">Téléphone</span>
+          <span><a href="tel:+14508761096">(450) 876-1096</a></span>
+        </div>
+        <div class="contact-row">
+          <span class="contact-label" data-i18n="contact.hours">Heures</span>
+          <span data-i18n="contact.hoursVal">Lun : 8 h 00 – 16 h 30<br>Mar : 7 h 00 – 16 h 30<br>Mer – Ven : 8 h 00 – 16 h 30<br>Sam – Dim : 8 h 30 – 16 h 30</span>
+        </div>
+        <a href="tel:+14508761096" class="btn btn-primary" data-i18n="contact.cta">Appelez-nous</a>
+      </div>
+      <div class="contact-map">
+        <iframe title="N Latté map" src="https://maps.google.com/maps?q=247%20Rue%20Saint-Charles%20O%2C%20Longueuil%20QC%20J4H%201E1&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span class="brand-text">N <strong>Latté</strong></span>
+    <p data-i18n="footer.tag">Café de spécialité · Vieux-Longueuil, Québec</p>
+    <p class="footer-small">247, rue Saint-Charles Ouest, Longueuil QC J4H 1E1 · <a href="tel:+14508761096">(450) 876-1096</a></p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
